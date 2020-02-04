@@ -3,7 +3,7 @@ layout: post
 title:  "My first post!"
 description: "About what I'll do in a near future."
 last_modified_at: 2020-02-04
-image: /assets/images/blog/hello-world-how-build-site-jekyll.jpg
+image:
 categories: Description
 tags: [Purposes]
 ---
