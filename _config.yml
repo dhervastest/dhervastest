@@ -1,22 +1,22 @@
 # Site settings
-title: "Raul San Martin"
-SEOtitle: "Raul San Martin · Student/Developer"
-description: "I’m a Telecommunication Technologies Engineering student living in Madrid."
-url: "https://raulsanmartin.me"
+title: "Daniel Hervás Rodao"
+SEOtitle: "Daniel Hervás Rodao · Student"
+description: "I'm a Telematis Engineering student at King's Juan Carlos University."
+url: ""
 baseurl: ""
 lang: en
 logo: "/assets/images/logo.png"
 favicon: "/assets/images/favicon.png"
 logo: "/assets/images/logo.png"
 name_img: "/assets/images/RaulSanMartin.png"
-author: "Raúl San Martín Aniceto"
+author: "Daniel Hervás Rodao"
 permalink: /:categories/:title/
 theme: null # https://github.com/jekyll/jekyll/issues/7478#issuecomment-454346783
 timezone: Europe/Madrid
 include: [".well-known"] # dat:// protocol support
 
 # Top bar
-topbar: "<b>Raul San Martin</b> / MrAnnix"
+topbar: "<b>Daniel Hervás Rodao</b> / dhrodao"
 
 # Liquid
 liquid:
@@ -55,10 +55,10 @@ social:
     link: "/contact"
     alt: "Contact page"
   - title: github
-    description: "MrAnnix on GitHub"
-    link: "https://github.com/MrAnnix"
-    alt: "MrAnnix's GitHub profile"
+    description: "dhrodao on GitHub"
+    link: "https://github.com/dhrodao"
+    alt: "dhrodao's GitHub profile"
   - title: linkedin
-    description: "Raul San Martin on Linkedin"
-    link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
-    alt: "MrAnnix's Linkedin profile"
+    description: "Daniel Hervás Rodao on Linkedin"
+    link: "https://www.linkedin.com/in/danielhervasrodao"
+    alt: "dhrodao's Linkedin profile"
