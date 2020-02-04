@@ -2,8 +2,10 @@
 title: Home
 layout: default
 ---
-
-<div class=column>
+<div class=container>
+   <div class=twoese-columns>
+      <div class=two-columns>
+       <div class=left-column>
         <div class=hi>
             <h1>Hi! My name is Daniel</h1>
             <p>I'm a Telematis Engineering student at King's Juan Carlos University.</p>
@@ -17,6 +19,8 @@ layout: default
                 {% endfor %}
             </ul>
         </div>
+        </div>
+        <div class=right-column>
         <div class=recent-blog-posts>
             <h2>Recent blog posts</h2>
             <p>I'll post here my recent creations</p>
@@ -26,4 +30,7 @@ layout: default
             {% endfor %}
             <a href="{{ site.baseurl }}/blog" class=all>See all blog posts</a>
         </div>
+       </div>
+     </div>
+   </div>
 </div>
