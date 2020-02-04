@@ -8,8 +8,8 @@ categories: Description
 tags: [Purposes]
 ---
 
-## The purpose for this blog
+# The purpose for this blog
 
 This blog will be mainly used for posting my University and Personal projects. I'll be updating it with new developments.
 
-# Hope you enjoy it!
+## Hope you enjoy it!
