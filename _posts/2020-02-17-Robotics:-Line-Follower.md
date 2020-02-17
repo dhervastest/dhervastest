@@ -14,10 +14,12 @@ For this project I have used CV2 in Phyton for image processing and different lo
 ## 1.1. What case-based programming is
 
 Case-based control is a relatively simple reactive system. It is an Artificial Intelligence methodology to carry out learning that has achieved good results in many fields of application. As features, a case-based control:
+<p>
     · Iterative operation (fast iterations)
     · Situation correspondence table
     · Allows to react to unforeseen events
     · Time does not influence. it's "here and now"
+ </p>
     
 ## 1.2. What PID controller is
 
