@@ -13,7 +13,6 @@ For this project I have used CV2 in Phyton for image processing and different lo
 
 <figure class="align-center">
   <img src="{{ '/assets/images/blog/escenario.png' | absolute_url }}" alt="Figure 1. Scenario.">
-  <figcaption>This site Dat URL as an example.</figcaption>
 </figure>
 
 ## 1.1. What case-based programming is
@@ -43,8 +42,6 @@ Before implementing the robot intelligence, we must do a **simple image processi
 
 <figure class="align-center">
   <img src="{{ '/assets/images/blog/rgb.png' | absolute_url }}" alt="RGB image">
-  <figcaption>This site Dat URL as an example.</figcaption>
-  
   <img src="{{ '/assets/images/blog/hsv.png' | absolute_url }}" alt="HSV image">
   <img src="{{ '/assets/images/blog/binary.png' | absolute_url }}" alt="Binary image">
 </figure>
