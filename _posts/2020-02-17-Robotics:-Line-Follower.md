@@ -42,8 +42,13 @@ Before implementing the robot intelligence, we must do a **simple image processi
 
 <figure class="align-center">
   <img src="{{ '/assets/images/blog/rgb.png' | absolute_url }}" alt="RGB image">
+  <figcaption>RGB image.</figcaption>
+  
   <img src="{{ '/assets/images/blog/hsv.png' | absolute_url }}" alt="HSV image">
+  <figcaption>HSV image.</figcaption>
+  
   <img src="{{ '/assets/images/blog/binary.png' | absolute_url }}" alt="Binary image">
+  <figcaption>Binary image.</figcaption>
 </figure>
 
 # 3. Case-based implementation
