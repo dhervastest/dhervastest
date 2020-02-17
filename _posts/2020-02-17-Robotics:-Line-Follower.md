@@ -17,9 +17,7 @@ Case-based control is a relatively simple reactive system. It is an Artificial I
 <p>
     · Iterative operation (fast iterations)
 </p>
-<p>
     · Situation correspondence table
-</p>
     · Allows to react to unforeseen events
 <p>
     · Time does not influence. it's "here and now"
