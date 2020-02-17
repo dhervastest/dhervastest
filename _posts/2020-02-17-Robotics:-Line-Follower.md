@@ -59,10 +59,9 @@ This is the easiest way to perform your logic method. I used an **if-esif** stru
 
 I have in account the pixels from my image, count the rigth and left side pixels from the half of the **binary image** and then apply the most suitable condition for the extracted information from the image.
 
-<pre><div class="”video-responsive”">
+<div class="”video-responsive”">
 <iframe  src="https://www.youtube.com/embed/LSejQ41JkyQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
-<pre>
 
 # 4. PID controller implementation
 
