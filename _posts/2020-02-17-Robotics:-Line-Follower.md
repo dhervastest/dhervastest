@@ -34,11 +34,11 @@ Case-based control is a relatively simple reactive system. It is an Artificial I
 
 # 2. Image processing
 
-Before implementing the robot intelligence, we must do a simple image processing in order to extract the information from the sensors we have been provided. Firstly, we need to get the RGB image from the camera, and convert it to HSV. Then, what I have done is, using the cv2 library, create a mask with the line colour and aplying it to the HSV image. Now we have a binary image, so we can start extracting information from it.
+Before implementing the robot intelligence, we must do a **simple image processing** in order to extract the information from the sensors we have been provided. Firstly, we need to get the RGB image from the camera, and convert it to HSV. Then, what I have done is, using the cv2 library, create a mask with the line colour and aplying it to the HSV image. Now we have a binary image, so we can start extracting information from it.
 
 # 3. Case-based implementation
 
-This is the easiest way to perform your logic method. I used an **if esif** structure contemplating the possible situations in which the car can be involved, I have set the conditions up experimentally.
+This is the easiest way to perform your logic method. I used an **if-esif** structure contemplating the possible situations in which the car can be involved, I have set the conditions up experimentally.
 
 ## 3.1. Way to set the conditions up
 
