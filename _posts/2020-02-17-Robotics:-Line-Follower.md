@@ -5,7 +5,7 @@ description: "My Line Follower proyect in Phyton"
 last_modified_at: 2020-02-17
 image:
 categories: Robotics, Technology
-tags: [Robotics, Phyton]
+tags: [Robotics, Phyton, cv2]
 ---
 # 1. Introduction
 
