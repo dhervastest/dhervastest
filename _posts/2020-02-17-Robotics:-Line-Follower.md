@@ -11,6 +11,11 @@ tags: [Robotics, Phyton]
 
 For this project I have used CV2 in Phyton for image processing and different logic methods for robots, the robot used has a camera in the front left side of the vehicle (it's a F1 car). First, I have used the most basic of all, case-based programming. The next method of implementation will be through a PID controller. I will be updating this post with the new changes in my proyect.
 
+<figure class="align-center">
+  <img src="{{ '/assets/images/blog/dat-how-decentralize-web/url.svg' | absolute_url }}" alt="Dat URL example">
+  <figcaption>This site Dat URL as an example.</figcaption>
+</figure>
+
 ## 1.1. What case-based programming is
 
 Case-based control is a relatively simple reactive system. It is an Artificial Intelligence methodology to carry out learning that has achieved good results in many fields of application. As features, a case-based control:
