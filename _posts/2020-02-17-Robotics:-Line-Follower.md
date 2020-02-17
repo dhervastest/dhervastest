@@ -12,7 +12,7 @@ tags: [Robotics, Phyton]
 For this project I have used CV2 in Phyton for image processing and different logic methods for robots, the robot used has a camera in the front left side of the vehicle (it's a F1 car). First, I have used the most basic of all, case-based programming. The next method of implementation will be through a PID controller. I will be updating this post with the new changes in my proyect.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/blog/escenario.png' | absolute_url }}" alt="">
+  <img src="{{ '/assets/images/blog/escenario.png' | absolute_url }}" alt="Figure 1. Scenario.">
   <figcaption>This site Dat URL as an example.</figcaption>
 </figure>
 
