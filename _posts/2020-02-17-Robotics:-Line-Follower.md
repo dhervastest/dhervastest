@@ -30,3 +30,12 @@ Before implementing the robot intelligence, we must do a simple image processing
 
 # 3. Case-based implementation
 
+This is the easiest way to perform your logic method. I used an **if esif** structure contemplating the possible situations in which the car can be involved, I have set the conditions up experimentally.
+
+## 3.1. Way to set the conditions up
+
+I have in account the pixels from my image. I count the rigth and left side pixels from the half of the **binary image**. I count the pixels of the left and right half using the binary image and then apply the most suitable condition for the extracted information from the image.
+
+# 4. PID controller implementation
+
+[...]
