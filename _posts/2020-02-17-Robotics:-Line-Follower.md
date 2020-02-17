@@ -63,7 +63,7 @@ I have in account the pixels from my image, count the rigth and left side pixels
 <div align="center">
 operation with case-based control method
 <div class="”video-responsive”">
-<iframe  src="https://www.youtube.com/embed/LSejQ41JkyQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe  src="https://www.youtube.com/embed/DZe6JDucfn0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 </pre>
