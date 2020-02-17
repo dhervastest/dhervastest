@@ -4,7 +4,7 @@ title:  "Robotics: Line Follower"
 description: "My Line Follower proyect in Phyton"
 last_modified_at: 2020-02-17
 image:
-categories: Description
+categories: Robotics, Technology
 tags: [Robotics, Phyton]
 ---
 # Introduction
@@ -17,3 +17,6 @@ Case-based control is a relatively simple reactive system. It is an Artificial I
     · Iterative operation (fast iterations)
     · Situation correspondence table
     · Allows to react to unforeseen events
+    · Time does not influence. it's "here and now"
+    
+
