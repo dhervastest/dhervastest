@@ -66,4 +66,3 @@ I have in account the pixels from my image, count the rigth and left side pixels
 
 # 4. PID controller implementation
 
-[...]
