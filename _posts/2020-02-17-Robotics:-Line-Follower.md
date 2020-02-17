@@ -16,8 +16,12 @@ For this project I have used CV2 in Phyton for image processing and different lo
 Case-based control is a relatively simple reactive system. It is an Artificial Intelligence methodology to carry out learning that has achieved good results in many fields of application. As features, a case-based control:
 <p>
     · Iterative operation (fast iterations)
+</p>
+<p>
     · Situation correspondence table
+</p>
     · Allows to react to unforeseen events
+<p>
     · Time does not influence. it's "here and now"
  </p>
     
