@@ -58,7 +58,7 @@ This is the easiest way to perform your logic method. I used an **if-esif** stru
 ## 3.1. Way to set the conditions up
 
 I have in account the pixels from my image, count the rigth and left side pixels from the half of the **binary image** and then apply the most suitable condition for the extracted information from the image.
-<div style=”text-align: center”>
+<div style=”align-content: center”>
 <pre>
 <div class="”video-responsive”">
 <iframe  src="https://www.youtube.com/embed/LSejQ41JkyQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
