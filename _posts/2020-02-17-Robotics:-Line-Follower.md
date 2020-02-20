@@ -94,7 +94,7 @@ After many experimental attempts, this is the result:
 
 <pre>
 <div align="center">
-operation with case-based control method
+operation with PID
 <div class="”video-responsive”">
 <iframe  src="https://www.youtube.com/embed/sEzLuU40e9Y" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
