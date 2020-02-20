@@ -83,7 +83,8 @@ Once I had the deviation, I implemented the PID algorithm and configured each pr
 <div align="center">
 operation with case-based control method
 <div class="”video-responsive”">
-<iframe  src="https://www.youtube.com/embed/DZe6JDucfn0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe  src="https://www.youtube.com/embed/sEzLuU40e9Y" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </div>
 </pre>
+
