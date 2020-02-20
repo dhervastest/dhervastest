@@ -33,7 +33,12 @@ Case-based control is a relatively simple reactive system. It is an Artificial I
     
 ## 1.2. What PID controller is
 
-[...]
+It is a combination of three controllers, proportional (P), derivative (D) and Integrator (I). The P controller reacts notably to high errors, the D controller smooths the error in order the car doesn't start swinging and finally the I controller removes the offsets ocasionated by the other controllers.
+<figure class="align-center">
+  <img src="{{ '/assets/images/blog/PID.png' | absolute_url }}" alt="RGB image">
+  <figcaption>PID ecuation.</figcaption>
+</figure>
+
 
 
 # 2. Image processing
