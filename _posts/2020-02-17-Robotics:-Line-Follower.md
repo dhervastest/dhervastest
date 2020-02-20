@@ -77,7 +77,7 @@ operation with case-based control method
 # 4. PID controller implementation
 
 First, I needed to change the way I calculate my error (to count pixels in each side of the screen wasn't that efficient). So I thought a new way to calculate the deviation, now I calculate the center of the fotogram and then the center of the red line on the tack, with that I get the car deviation (center - redline_center).
-Once I had the deviation, I implemented the PID algorithm and configured each proportionality constant. And this was the result:
+Once I had the deviation, I implemented the PID algorithm and configured each proportionality constant experimentally. And this was the result:
 
 <pre>
 <div align="center">
