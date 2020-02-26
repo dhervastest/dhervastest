@@ -54,14 +54,14 @@
 
 .post-row>div:hover::before {
     transition: width .15s ease-in 0s,height .15s ease-out .15s;
-    border-top-color: #c8463e;
-    border-right-color: #c8463e
+    border-top-color: #a572f4;
+    border-right-color: #a572f4
 }
 
 .post-row>div:hover::after {
     transition: height .15s ease-in 0s,width .15s ease-out .15s;
-    border-left-color: #c8463e;
-    border-bottom-color: #c8463e
+    border-left-color: #a572f4;
+    border-bottom-color: #a572f4
 }
 
 .post-details>p {
