@@ -101,5 +101,5 @@ operation with PID
 </div>
 </pre>
 
-After all the above, I was looking for a better system for the velocity management, so I decided on implementing a velocity controller using the <em>Integrative</em> and the <em>Proportional</em> parts. I stablish an initial speed and if the error starts increasing, the car slows down.
+After all the above, I was looking for a better system for the velocity management, so I decided on implementing a velocity controller using the <em>Integrative</em> and the <em>Proportional</em> parts. I stablished an initial speed, and if the error starts increasing, the car slows down, then it will be recovering its initial speed.
 
