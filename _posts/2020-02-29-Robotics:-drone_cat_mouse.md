@@ -22,7 +22,7 @@ First of all I needed to proccess the image that i was getting from the front ca
 
 # 3. Following method
 
-I applied a case-based method in order to follow the "cat", setting the movement speed experimentally. The first try, I implemented an algorithm that the drone was moving based on the area it calculated on the red one, but this area was so small so I needed to change that. This is an example execution of the algorithm:
+I applied a case-based method in order to follow the "cat", setting the movement speed experimentally. The first try, I implemented an algorithm that the drone was moving based on the area it calculated on the red one, but this area was too small and the drone was very slow so I needed to improve it. This is an example execution of the algorithm:
 
 <pre>
 <div align="center">
