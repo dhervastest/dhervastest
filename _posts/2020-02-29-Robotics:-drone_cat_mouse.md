@@ -16,4 +16,29 @@ For this project I have used CV2 in Phyton for image processing and different lo
   <img src="{{ '/assets/images/blog/escenario.png' | absolute_url }}" alt="Figure 1. Scenario.">
 </figure>
 
+# 2. Image processing
+
+First of all I needed to proccess the image that i was getting from the front camera. I tryed with many color spaces and tones. But for me, no one worked, so I used the one provided by the exercise theory. After converting the image into HSV I applied a binary threshold to it and then I got the contours from it (using the findContours() method from cv2). With the contour array I get the areas and then I keep the biggest one (it is suposed to be the drone) and calculate the X and Y errors.
+
+# 3. Following method
+
+I applied a case-based method in order to follow the "cat", setting the movement speed experimentally. The first try, I implemented an algorithm that the drone was moving based on the area it calculated on the red one, but this area was so small so I needed to change that. This is an example execution of the algorithm:
+
+<pre>
+<div align="center">
+<div class="”video-responsive”">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ObeuCfV-d3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</pre>
+
+I improved the algorithm considering many cases with the area value. And I got this result:
+
+<pre>
+<div align="center">
+<div class="”video-responsive”">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ccqvlLJKluw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</pre>
 
