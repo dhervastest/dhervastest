@@ -18,7 +18,11 @@ For this project I have used CV2 in Phyton for image processing and different lo
 
 # 2. Image processing
 
-First of all I needed to proccess the image that i was getting from the front camera. I tryed with many color spaces and tones. But for me, no one worked, so I used the one provided by the exercise theory. After converting the image into HSV I applied a binary threshold to it and then I got the contours from it (using the findContours() method from cv2). With the contour array I get the areas and then I keep the biggest one (it is suposed to be the drone) and calculate the X and Y errors.
+First of all I needed to proccess the image that i was getting from the front camera. I tryed with many color spaces and tones. But for me, no one worked, so I used the one provided by the exercise theory. After converting the image into HSV I applied a binary threshold to it and then I got the contours from it (using the findContours() method from cv2). With the contour array I get the areas and then I keep the biggest one (it is suposed to be the drone) and calculate the X and Y errors. This is the processed image:
+
+<figure class="align-center">
+  <img src="{{ '/assets/images/blog/img_processed.png' | absolute_url }}" alt="Figure 2. Processed image.">
+</figure>
 
 # 3. Following method
 
