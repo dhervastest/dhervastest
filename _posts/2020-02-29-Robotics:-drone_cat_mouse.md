@@ -22,6 +22,7 @@ First of all I needed to proccess the image that i was getting from the front ca
 
 <figure class="align-center">
   <img src="{{ '/assets/images/blog/img_processed.png' | absolute_url }}" alt="Figure 2. Processed image.">
+  <figcaption>Processed image.</figcaption>
 </figure>
 
 # 3. Following method
