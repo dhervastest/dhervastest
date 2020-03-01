@@ -32,7 +32,7 @@ I applied a case-based method in order to follow the "cat", setting the movement
 <pre>
 <div align="center">
 <div class="”video-responsive”">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ObeuCfV-d3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/ObeuCfV-d3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 </pre>
