@@ -42,8 +42,21 @@ I improved the algorithm considering many cases with the area value. And I got t
 <pre>
 <div align="center">
 <div class="”video-responsive”">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ccqvlLJKluw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/ccqvlLJKluw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 </pre>
+
+As you can appreciate in the last video, the drones had a collision so I adjusted some parameters in order the drones don't collide. So this is the third version of my exercise with a total of 397.0 points:
+
+<pre>
+<div align="center">
+<div class="”video-responsive”">
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/VjX5CmVBcm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</pre>
+
+
+
 
