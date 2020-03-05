@@ -18,7 +18,7 @@ For this project I have used CV2 in Phyton for image processing and different lo
 
 # 2. Image processing
 
-First of all I needed to proccess the image that i was getting from the front camera. I tryed with many color spaces and tones. But for me, no one worked, so I used the one provided by the exercise theory. After converting the image into HSV I applied a binary threshold to it and then I got the contours from it (using the findContours() method from cv2). With the contour array I get the areas and then I keep the biggest one (it is suposed to be the drone) and calculate the X and Y errors. This is the processed image:
+First of all I needed to proccess the image that i was getting from the front camera. After converting the image into HSV I used a color space in where the green color is not passing the filter and then I got the contours from it (using the findContours() method from cv2). With the contour array I get the areas and then I keep the biggest one (that is suposed to be the drone) and calculate the X and Y errors. This is the processed image:
 
 <figure class="align-center">
   <img src="{{ '/assets/images/blog/img_processed.png' | absolute_url }}" alt="Figure 2. Processed image.">
@@ -57,6 +57,12 @@ As you can appreciate in the last video, the drones had a collision so I adjuste
 </div>
 </pre>
 
+As one of my last versions I made some changes to the proyect in order to avoid some random collisions and to get a faster drone. I considered the center view on axis Y for my drone a bit lower than I would be on a real perception of the frame with the intention that the drone always is on a higher plane than the red one. Also configured some cases having in account the error, raising or lowering the drone speed and, if needed, gets the drone stopped. This is the fourth version of my exercise, raising a total of 930.0 points:
 
-
-
+<pre>
+<div align="center">
+<div class="”video-responsive”">
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/uH4eV2Cbsx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</pre>
