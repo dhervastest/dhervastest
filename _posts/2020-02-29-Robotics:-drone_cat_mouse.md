@@ -66,3 +66,13 @@ As one of my last versions I made some changes to the proyect in order to avoid 
 </div>
 </div>
 </pre>
+
+For the last implementantion, as my drone was a bit <em> reckless </em> I decided to implement a PID controller in order it is more stable and it dont shock with -the cat- in the mayority of situations. This is the las version test of my exercise:
+
+<pre>
+<div align="center">
+<div class="”video-responsive”">
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/uH4eV2Cbsx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</pre>
