@@ -5,7 +5,7 @@ description: "My drone_cat_mouse proyect in Phyton"
 last_modified_at: 2020-02-17
 image:
 categories: Robotics, Technology
-tags: [Robotics, Phyton, cv2]
+tags: [Robotics, Phyton, cv2, PID]
 ---
 
 # 1. Introduction
