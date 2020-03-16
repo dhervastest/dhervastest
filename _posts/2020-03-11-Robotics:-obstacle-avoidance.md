@@ -75,3 +75,6 @@ Firstly, we must add the X and Y coordinates from the two initial forces. This v
 Lately, we calculate the module and phase from this vector and done with the other vectors.
 
 # 5. Visual example
+<pre>
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/bNhEaRjoX08" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
