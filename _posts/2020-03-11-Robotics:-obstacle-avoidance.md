@@ -19,7 +19,7 @@ The sensor that we have to carry out the exercise its a laser sensor (<em> Lidar
 ## 2.2. Actuators
 As actuators, the robot has motors, those motors let the car move on every direction.
 
-## 3. Software
+# 3. Software
 Firstly, to carry out the VFF algorithm is used a hybrid navegation, so, the API is the one who provides us the global coordinates of the targets the car needs to reach. There is many targets along the circuit that helps the car to complete the lap.
 
 This algorithm is an iterative algorithm whose structure is as detailed:
@@ -37,5 +37,33 @@ This algorithm is an iterative algorithm whose structure is as detailed:
     · Obtain the sensor data. This data is received in a 180 position array ([0,179]) where each position contains a distance value.
  </p>
  <p>
-    · Once we have the relative coordinates from the objective and the sensor values, the VFF algorith is applied.
+    · Once we have the relative coordinates from the target and the sensor values, the VFF algorith is applied.
   </p>
+  
+# 4. VFF algorithm
+This is a local navegation algorithm that is based on the calculation and adding of forces to calculate the optimal direction and sense for the robot to navegate safely.
+
+## 4.1. Atractive force
+With the X and Y coordintes from the target, we define an force, that will be composed by module and phase. The module need to be constant in order the force doesn't grows uncontrollably.
+
+## 4.2. Repulsive force
+Firstly, we transform each angle of measuring from the sensor (0º to 180º) to the range [-90º,90º]. This is obtained by subtracting 90º to the initial angle. Lately it will be added by 180º. This is done because we want a repulsive force, so we need to invert it. Once we now the phase from the repulsive force, we calculate the X and Y coordinates (for every position of the array) using the distance measure as is detailed:
+
+<pre>
+    dist_threshold = 6
+    vff_repulsor_list = []
+    for dist,alpha in laser:
+        if(dist < dist_threshold):
+            x = (dist - dist_threshold) * math.cos(alpha) * -1
+            y = (dist - dist_threshold) * math.sin(alpha) * -1
+            v = (x,y)
+            vff_repulsor_list += [v]
+</pre>
+Where <em> alpha </em> is the phase from the repulsive force. On this loop what we are doing is saving in an array (<em> vff_repulsor_list</em>) al the measure vectors from the laser data. And finally we need to convert al this vector in one:
+
+<pre>
+    vff_repulsor = np.mean(vff_repulsor_list, axis=0)
+</pre>
+
+## 4.3. Resultant force
+Finally, once calculated the atractive and repulsive forces, it's neccesary to combine both to get the resultant vector wich will provide us the information that we need to send information tho the motors in order to get the car moving and avoiding the obstacles.
