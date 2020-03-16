@@ -67,3 +67,11 @@ Where <em> alpha </em> is the phase from the repulsive force. On this loop what 
 
 ## 4.3. Resultant force
 Finally, once calculated the atractive and repulsive forces, it's neccesary to combine both to get the resultant vector wich will provide us the information that we need to send information tho the motors in order to get the car moving and avoiding the obstacles.
+Firstly, we must add the X and Y coordinates from the two initial forces. This values will be the coordinates from the resultant vector:
+<pre>
+    self.avgx = self.carx + self.obsx
+    self.avgy = self.cary + self.obsy
+</pre>
+Lately, we calculate the module and phase from this vector and done with the other vectors.
+
+# 5. Visual example
