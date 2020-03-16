@@ -24,3 +24,18 @@ Firstly, to carry out the VFF algorithm is used a hybrid navegation, so, the API
 
 This algorithm is an iterative algorithm whose structure is as detailed:
 
+<p>
+    · Firstly, we need to obtain the absolute coordinates from the robot (x, y, yaw), where yaw makes reference to the orientation angle.
+</p>
+<p>
+    · Obtain the absolute coordinates from the next target.
+</p>
+<p>
+    · Calculate the relative coordinates from the objective (regarding my robot) from the previous absolute coordinates.
+</p>
+<p>
+    · Obtain the sensor data. This data is received in a 180 position array ([0,179]) where each position contains a distance value.
+ </p>
+ <p>
+    · Once we have the relative coordinates from the objective and the sensor values, the VFF algorith is applied.
+  </p>
