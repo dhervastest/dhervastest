@@ -55,12 +55,12 @@ With the X and Y coordintes from the target, we define an force, that will be co
 Firstly, we transform each angle of measuring from the sensor (0º to 180º) to the range [-90º,90º]. This is obtained by subtracting 90º to the initial angle. Lately it will be added by 180º. This is done because we want a repulsive force, so we need to invert it. Once we now the phase from the repulsive force, we calculate the X and Y coordinates (for every position of the array) using the distance measure as is detailed:
 
 <pre>
-    dist_threshold = 6
+    dist_threshold = 4
     vff_repulsor_list = []
     for dist,alpha in laser:
         if(dist < dist_threshold):
-            x = (dist - dist_threshold) * math.cos(alpha) * -1
-            y = (dist - dist_threshold) * math.sin(alpha) * -1
+            x = -math.cos(alpha)/d
+            y = -math.sin(alpha)/d
             v = (x,y)
             vff_repulsor_list += [v]
 </pre>
@@ -80,6 +80,7 @@ Firstly, we must add the X and Y coordinates from the two initial forces. This v
 Lately, we calculate the module and phase from this vector and done with the other vectors.
 
 # 5. Visual example
+This is the first version of my exercise, the problem is tha the car oscilates too much so I need to correct it on the next version:
 <div align="center">
 <pre>
 <iframe width="auto" height="315" src="https://www.youtube.com/embed/bNhEaRjoX08" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
