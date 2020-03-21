@@ -87,7 +87,7 @@ This is the first version of my exercise, the problem is tha the car oscilates t
 </pre>
 </div>
 
-I continued improving my algorith vectors interpretation and some other aspects like a case based method for the steering angle and these are the results:
+I continued improving my vectors interpretation and some other aspects like a case based method for the steering angle and these are the results:
 <div align="center">
 <pre>
 <iframe width="auto" height="315" src="https://www.youtube.com/embed/A17T6BaYDo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
