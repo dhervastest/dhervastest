@@ -93,3 +93,9 @@ I continued improving my vectors interpretation and some other aspects like a ca
 <iframe width="auto" height="315" src="https://www.youtube.com/embed/A17T6BaYDo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
 </div>
+
+The next version of the exercise was tested on the offline version of the platform. I made some changes, this is the visual example:
+
+<pre>
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/g-R8jsmUkdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
