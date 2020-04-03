@@ -95,7 +95,15 @@ I continued improving my vectors interpretation and some other aspects like a ca
 </div>
 
 The next version of the exercise was tested on the offline version of the platform. I made some changes, this is the visual example:
-
+<div align="center">
 <pre>
 <iframe width="auto" height="315" src="https://www.youtube.com/embed/g-R8jsmUkdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </pre>
+</div>
+
+As you can see on the previous version, the vectors weren't correctly displayed so I fixed that issue and some others related with the obstacle vector, also the car isn't that agressive now:
+<div align="center">
+<pre>
+<iframe width="auto" height="315" src="https://www.youtube.com/embed/506_BLl2cLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</pre>
+</div>
